@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,100&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #2a2a72 74%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body input {
+  background-color: #440c5a;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+body input:focus {
+  outline: none;
+}
+
+body input::-webkit-input-placeholder {
+  color: white;
+}
+
+body input:-ms-input-placeholder {
+  color: white;
+}
+
+body input::-ms-input-placeholder {
+  color: white;
+}
+
+body input::placeholder {
+  color: white;
+}
+
+body main .card {
+  background-color: #681896;
+  background-image: linear-gradient(315deg, #440c5a 0%, #7a169b 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+body main .card .avatar {
+  border: 10px solid #2a2a72;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+body main .card .user-info {
+  color: white;
+  margin-left: 2rem;
+}
+
+body main .card .user-info h2 {
+  margin-top: 0;
+}
+
+body main .card .user-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  width: 400px;
+  padding: 0;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .card .user-info ul strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+body main .card .repo {
+  background-color: #2a2a72;
+  display: inline-block;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=stil.css.map */

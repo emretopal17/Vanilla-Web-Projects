@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        header{
+            height: 10%;
+            background-color: black;
+            border-radius: 8px;
+            font-size: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            p {
+                color: white;
+            }
+            span {
+                margin-left: 1rem;
+                color: rgb(91, 181, 230);
+            }
+        }
+
+        button {
+            background-color: transparent;
+            border: 4px solid black;
+            border-radius: 8px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 1rem 2rem;
+            margin-top: 3rem;
+            
+
+            
+            
+        }
+    }
+
+}
